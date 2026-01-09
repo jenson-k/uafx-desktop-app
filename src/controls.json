@@ -1,0 +1,276 @@
+{
+    "device": [
+        {
+            "name": "Dream",
+            "channel_default": 1,
+            "layout": [
+                {
+                    "row": 0,
+                    "items": [
+                        { "id": "volume", "type": "volume", "name": "Volume", "cc": 22 },
+                        { "id": "treble", "type": "volume", "name": "Treble", "cc": 33 },
+                        { "id": "bass", "type": "volume", "name": "Bass", "cc": 31 },
+                        { "id": "reverb", "type": "volume", "name": "Reverb", "cc": 51 },
+                        { "id": "output", "type": "volume", "name": "Output", "cc": 7 },
+                        { "id": "speed", "type": "volume", "name": "Speed", "cc": 61 },
+                        { "id": "intensity", "type": "volume", "name": "Intensity", "cc": 62 }
+                    ]
+                },
+                {
+                    "row": 1,
+                    "items": [
+                        { 
+                            "id": "cabinet", "type": "toggle", "name": "Cabinet", "cc": 18,
+                            "texts": ["Greenback", "Oxford", "EV12", "TwoRock", "SuperReverb", "JBL120", "NoCab"]
+                        },
+                        { 
+                            "id": "mode", "type": "toggle", "name": "Mode", "cc": 17,
+                            "texts": ["Lead", "Stock", "D-Tex"]
+                        },
+                        { "id": "boost", "type": "volume", "name": "Boost", "cc": 41 },
+                        { "id": "boost_on", "type": "button", "name": "Boost On", "cc": 40, "initial_off": true }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Enigmatic",
+            "channel_default": 1,
+            "layout": [
+                {
+                    "row": 0,
+                    "items": [
+                        { "id": "volume", "type": "volume", "name": "Volume", "cc": 22 },
+                        { "id": "overdrive", "type": "volume", "name": "Overdrive", "cc": 23 },
+                        { "id": "od_on", "type": "button", "name": "OD On", "cc": 24, "initial_off": true },
+                        { "id": "treble", "type": "volume", "name": "Treble", "cc": 33 },
+                        { "id": "middle", "type": "volume", "name": "Middle", "cc": 32 },
+                        { "id": "bass", "type": "volume", "name": "Bass", "cc": 31 },
+                        { "id": "presence", "type": "volume", "name": "Presence", "cc": 34 },
+                        { "id": "master", "type": "volume", "name": "Master", "cc": 26 },
+                        { "id": "room", "type": "volume", "name": "Room", "cc": 30 },
+                        { "id": "output", "type": "volume", "name": "Output", "cc": 7 }
+                    ]
+                },
+                {
+                    "row": 1,
+                    "items": [
+                        { 
+                            "id": "cabinet", "type": "toggle", "name": "Cabinet", "cc": 18,
+                            "texts": ["GB25", "D65", "EV12", "V30", "JBF120", "BLK-EV12", "Strp-GB", "JBG125", "D-EV12", "NoCab"]
+                        },
+                        { 
+                            "id": "amp", "type": "toggle", "name": "Amp", "cc": 21,
+                            "texts": ["50W/HP", "100W/LP/SQPS", "100W/HP/STPS", "100W/LP/VSPS"]
+                        },
+                        { 
+                            "id": "mode", "type": "toggle", "name": "Mode", "cc": 17,
+                            "texts": ["Rock", "Jazz", "Custom"]
+                        },
+                        { "id": "boost_on", "type": "button", "name": "Boost On", "cc": 40, "initial_off": true },
+                        { "id": "hrm", "type": "button", "name": "HRM", "cc": 50, "initial_off": true },
+                        { "id": "hrm_treble", "type": "volume", "name": "HRM Treble", "cc": 53 },
+                        { "id": "hrm_middle", "type": "volume", "name": "HRM Middle", "cc": 52 },
+                        { "id": "hrm_bass", "type": "volume", "name": "HRM Bass", "cc": 51 },
+                        { "id": "od_trim", "type": "volume", "name": "OD Trim", "cc": 28 },
+                        { "id": "fet_trim", "type": "volume", "name": "FET Trim", "cc": 27 }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "items": [
+                        { 
+                            "id": "bright", "type": "toggle", "name": "Bright", "cc": 36,
+                            "texts": ["None", "150pf", "196pf", "300pf"]
+                        },
+                        { "id": "deep", "type": "button", "name": "Deep", "cc": 35, "initial_off": true },
+                        { "id": "channel", "type": "button", "name": "Channel", "cc": 20, "initial_off": true },
+                        { "id": "tone_stack", "type": "button", "name": "Tonestack", "cc": 37, "initial_off": true },
+                        { "id": "ratio", "type": "volume", "name": "Ratio", "cc": 25 }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lion",
+            "channel_default": 1,
+            "layout": [
+                {
+                    "row": 0,
+                    "items": [
+                        { "id": "volume1", "type": "volume", "name": "Volume I", "cc": 22 },
+                        { "id": "volume2", "type": "volume", "name": "Volume II", "cc": 23 },
+                        { "id": "treble", "type": "volume", "name": "Treble", "cc": 33 },
+                        { "id": "middle", "type": "volume", "name": "Middle", "cc": 32 },
+                        { "id": "bass", "type": "volume", "name": "Bass", "cc": 31 },
+                        { "id": "presence", "type": "volume", "name": "Presence", "cc": 34 },
+                        { "id": "room", "type": "volume", "name": "Room", "cc": 30 },
+                        { "id": "output", "type": "volume", "name": "Output", "cc": 7 }
+                    ]
+                },
+                {
+                    "row": 1,
+                    "items": [
+                        { 
+                            "id": "cabinet", "type": "toggle", "name": "Cabinet", "cc": 18,
+                            "texts": ["GB25", "GB30", "JB|GB", "EV12", "D65", "V30", "NoCab"]
+                        },
+                        { 
+                            "id": "input", "type": "toggle", "name": "Input", "cc": 21,
+                            "texts": ["Low", "High", "Jumped"]
+                        },
+                        { 
+                            "id": "mode", "type": "toggle", "name": "Mode", "cc": 17,
+                            "texts": ["Bass", "Lead", "Brown"]
+                        },
+                        { "id": "boost", "type": "volume", "name": "Boost", "cc": 41 },
+                        { "id": "boost_on", "type": "button", "name": "Boost On", "cc": 40, "initial_off": true },
+                        { "id": "bright", "type": "button", "name": "Bright", "cc": 35, "initial_off": true },
+                        { "id": "ghost", "type": "button", "name": "Ghost Notes", "cc": 36, "initial_off": true }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Anti",
+            "channel_default": 1,
+            "layout": [
+                {
+                    "row": 0,
+                    "items": [
+                        { "id": "pre", "type": "volume", "name": "Pre Gain", "cc": 22 },
+                        { "id": "post", "type": "volume", "name": "Post Gain", "cc": 25 },
+                        { "id": "treble", "type": "volume", "name": "Treble", "cc": 33 },
+                        { "id": "middle", "type": "volume", "name": "Middle", "cc": 32 },
+                        { "id": "bass", "type": "volume", "name": "Bass", "cc": 31 },
+                        { "id": "presence", "type": "volume", "name": "Presence", "cc": 34 },
+                        { "id": "resonance", "type": "volume", "name": "Resonance", "cc": 35 },
+                        { "id": "room", "type": "volume", "name": "Room", "cc": 30 },
+                        { "id": "output", "type": "volume", "name": "Output", "cc": 7 }
+                    ]
+                },
+                {
+                    "row": 1,
+                    "items": [
+                        { 
+                            "id": "cabinet", "type": "toggle", "name": "Cabinet", "cc": 18,
+                            "texts": ["UK V30", "CA V30", "White75", "D65", "Super80", "BrownJB", "NoCab"]
+                        },
+                        { 
+                            "id": "input", "type": "toggle", "name": "Input", "cc": 21,
+                            "texts": ["Low", "High"]
+                        },
+                        { 
+                            "id": "channel", "type": "toggle", "name": "Mode", "cc": 17,
+                            "texts": ["Rhythm", "Crunch", "Lead"]
+                        },
+                        { "id": "boost_drive", "type": "volume", "name": "Boost Drive", "cc": 42 },
+                        { "id": "boost_tone", "type": "volume", "name": "Boost Tone", "cc": 44 },
+                        { "id": "boost_level", "type": "volume", "name": "Boost Level", "cc": 41 },
+                        { "id": "boost_type", "type": "button", "name": "Boost Type", "cc": 45, "initial_off": true },
+                        { "id": "boost_on", "type": "button", "name": "Boost On", "cc": 40, "initial_off": true },
+                        { "id": "bright", "type": "button", "name": "Bright", "cc": 36, "initial_off": true },
+                        { 
+                            "id": "bias", "type": "toggle", "name": "Bias", "cc": 26,
+                            "texts": ["Cool", "Warm", "Cool Choke", "Warm Choke"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Oxstomp",
+            "channel_default": 1,
+            "layout": [
+                {
+                    "row": 0,
+                    "items": [
+                        { 
+                            "id": "cabinet", "type": "toggle", "name": "Cabinet", "cc": 20,
+                            "texts": ["1x10 Black Cha",
+                                      "1x12 Black GB30",
+                                      "1x12 Black D-UX",
+                                      "1x12 JBG125",
+                                      "1x12 Blu 15",
+                                      "1x12 GB25",
+                                      "1x12 Blue J",
+                                      "2x10 V-UX",
+                                      "2x12 Ace Top",
+                                      "2x12 Alnico 50",
+                                      "2x12 Black 8h",
+                                      "2x12 D65",
+                                      "2x12 Two Verb",
+                                      "2x12 JBF120",
+                                      "4x10 BMan",
+                                      "4x12 GB30",
+                                      "4x12 UK V30",
+                                      "4x12 CA V30",
+                                      "4x12 Super 80",
+                                      "4x12 GB25 Punch",
+                                      "4x12 GB25 Thick",
+                                      "4x12 White 75"
+                                    ]
+                        },
+                        { 
+                            "id": "mic1", "type": "toggle", "name": "Mic 1", "cc": 22,
+                            "texts": ["Dynamic 421",
+                                      "Dynamic 57",
+                                      "Condenser 414",
+                                      "Ribbon 160",
+                                      "Ribbon 121",
+                                      "Condenser 67",
+                                      "Direct Box"
+                                    ]
+                        },
+                        { "id": "mic1_volume", "type": "volume", "name": "Mic 1 Vol", "cc": 23 },
+                        { 
+                            "id": "mic2", "type": "toggle", "name": "Mic 2", "cc": 28,
+                            "texts": ["Dynamic 421",
+                                      "Dynamic 57",
+                                      "Condenser 414",
+                                      "Ribbon 160",
+                                      "Ribbon 121",
+                                      "Condenser 67",
+                                      "Direct Box"
+                                    ]
+                        },
+                        { "id": "mic2_volume", "type": "volume", "name": "Mic 2 Vol", "cc": 29 },
+                        { "id": "output", "type": "volume", "name": "Output", "cc": 7 }
+                    ]
+                },
+                {
+                    "row": 1,
+                    "items": [
+                        { "id": "speaker_drive", "type": "volume", "name": "Speaker Drive", "cc": 21 },
+                        { 
+                            "id": "room_mic", "type": "toggle", "name": "Room Mic", "cc": 34,
+                            "texts": ["Ribbon Stereo",
+                                      "Condenser Stereo",
+                                      "Condenser Mono",
+                                      "Condenser 67 Mono",
+                                      "Ribbon 84 Mono",
+                                      "Ribbon 121 Mono"
+                                    ]
+                        },
+                        { "id": "room", "type": "volume", "name": "Room", "cc": 35 },
+                        { "id": "room_damp", "type": "button", "name": "Room Damp", "cc": 38, "initial_off": true },
+                        { "id": "room_lowcut", "type": "button", "name": "Room Lowcut", "cc": 39, "initial_off": true }
+                    ]
+                },
+                {
+                    "row": 2,
+                    "items": [
+                        { "id": "delay", "type": "button", "name": "Delay", "cc": 40, "initial_off": true },
+                        { "id": "delay_feedback", "type": "volume", "name": "Delay Feedback", "cc": 42 },
+                        { "id": "delay_mix", "type": "volume", "name": "Delay Mix", "cc": 44 },
+                        { "id": "delay_time", "type": "volume", "name": "Delay Time", "cc": 41 },
+                        { "id": "reverb", "type": "button", "name": "Reverb", "cc": 60, "initial_off": true },
+                        { "id": "reverb_mix", "type": "volume", "name": "Reverb Mix", "cc": 63 },
+                        { "id": "reverb_time", "type": "volume", "name": "Reverb Time", "cc": 61 }
+
+                    ]
+                }
+            ]
+        }
+    ]
+}
